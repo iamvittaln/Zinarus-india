@@ -1,0 +1,93 @@
+body, html
+{
+    background-color: lightcyan;
+    overflow: hidden;
+}
+#company_logo
+{
+    width: 125px;
+    height:auto;
+}
+#company_name
+{
+    position: relative;
+    font-size: 50px;
+    color:crimson;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    bottom: 150px;
+    text-align: center;
+}
+#sales
+{
+    position: relative;
+    text-align: center;
+    bottom: 190px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:darkmagenta;
+}
+#heading1
+{
+    font-size: 30px;
+    font-family: fantasy;
+    color:midnightblue;
+}
+.model_list
+{
+    position: relative;
+    bottom:200px;
+}
+.list_buttons
+{
+    background:none;
+    border:none;
+    margin:0;
+    padding:20px;
+    cursor:pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+#button-info
+{
+    position: relative;
+    color: lightslategray;
+    bottom:200px;
+    text-align: left;
+    font-size: 17px;
+}
+.car_images
+{
+    width: 600px;
+    position:relative;
+    left:500px;
+    bottom: 425px;
+}
+#cruzer_details,#linto_details,#jiguan_details
+{
+    position: relative;
+    left:1125px;
+    bottom: 825px;
+}
+.hidden_table_1,.hidden_table_2,.hidden_table_3
+{
+    display: none;
+}
+
+th
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding:15px; 
+}
+td
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:15px;
+}
+tr:nth-child(even)
+{
+    background-color: palevioletred;
+}
+tr:nth-child(odd)
+{
+    background-color: orange;
+}
