@@ -5,7 +5,7 @@
         <script src="JS-Files/sales.js"></script>
         <title>Sales Information</title>
     </head>
-    <body>
+    <body onload="Coupon()">
         <a href="index.html"><img id="company_logo" src="/Images/Zinarus-logos_transparent.png" alt="company-logo"></a>
         <p id="company_name">Zinarus</p>
         <p id="sales">Need to buy a car? Check out our flagship cars below !!</p>
@@ -17,7 +17,11 @@
             <li><button onclick="Jiguan()" class="list_buttons" id="list_button3">Jiguan</button></li>  
         </ol>
         </div>
-        <p id="button-info">* Click the name of a car to know more about it</p>
+        <p id="button-info">
+            * Click the name of a car to know more about it <br> 
+        </p>
+        <p id="coupon"></p>
+        <p id="coupon_info">Contact the showroom and use the coupon code to avail exciting discounts !!</p>
         <img class="car_images" id="car1" src="">
         <img class="car_images" id="car2" src="">
         <img class="car_images" id="car3" src="">
@@ -51,6 +55,10 @@
                     <th>Car Type</th>
                     <td>HatchBack</td>
                 </tr>
+                <tr>
+                    <th>Price</th>
+                    <td>&#8377 7,95,000 only</td>
+                </tr>
             </table>
             <table id="linto_details" class="hidden_table_2">
                 <tr>
@@ -81,6 +89,10 @@
                     <th>Car Type</th>
                     <td>SUV</td>
                 </tr>
+                <tr>
+                    <th>Price</th>
+                    <td>&#8377 16,40,000 only</td>
+                </tr>
             </table>
             <table id="jiguan_details" class="hidden_table_3">
                 <tr>
@@ -110,6 +122,10 @@
                 <tr>
                     <th>Car Type</th>
                     <td>Sedan</td>
+                </tr>
+                <tr>
+                    <th>Price</th>
+                    <td>&#8377 25,32,000 only</td>
                 </tr>
             </table>
         </div>
