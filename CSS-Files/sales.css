@@ -1,7 +1,6 @@
 body, html
 {
     background-color: lightcyan;
-    overflow-y: hidden;
 }
 #company_logo
 {
@@ -105,5 +104,11 @@ tr:nth-child(odd)
     font-weight:bolder;
     bottom:110px;
     font-size: 15px;
-  
+}
+.footer
+{
+    position:static;
+    bottom: 0;
+    color: black;
+    text-align: center;
 }
