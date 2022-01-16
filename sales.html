@@ -3,9 +3,17 @@
     <head>
         <link rel="stylesheet" href="CSS-Files/sales.css">
         <script src="JS-Files/sales.js"></script>
+        <script src="JS-Files/footer.js"></script>
+        <script>
+            function sales_html()
+            {
+                Coupon();
+                footer_content();
+            }
+        </script>
         <title>Sales Information</title>
     </head>
-    <body onload="Coupon()">
+    <body onload="sales_html()">
         <a href="index.html"><img id="company_logo" src="/Images/Zinarus-logos_transparent.png" alt="company-logo"></a>
         <p id="company_name">Zinarus</p>
         <p id="sales">Need to buy a car? Check out our flagship cars below !!</p>
