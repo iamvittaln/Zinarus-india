@@ -51,7 +51,7 @@ body, html
 {
     position: relative;
     color: lightslategray;
-    bottom:200px;
+    bottom:225px;
     text-align: left;
     font-size: 17px;
 }
@@ -60,13 +60,13 @@ body, html
     width: 600px;
     position:relative;
     left:500px;
-    bottom: 425px;
+    bottom: 555px;
 }
 #cruzer_details,#linto_details,#jiguan_details
 {
     position: relative;
     left:1125px;
-    bottom: 825px;
+    bottom: 975px;
 }
 .hidden_table_1,.hidden_table_2,.hidden_table_3
 {
@@ -90,4 +90,20 @@ tr:nth-child(even)
 tr:nth-child(odd)
 {
     background-color: orange;
+}
+#coupon
+{
+    font-size: 25px;
+    position: relative;
+    bottom: 100px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#coupon_info
+{
+    position: relative;
+    color: gray;
+    font-weight:bolder;
+    bottom:110px;
+    font-size: 15px;
+  
 }

@@ -79,3 +79,16 @@ function Jiguan()
         jiguan_car.style.display="none";
     }  
 }
+function Coupon()
+{
+    var i;
+    var coupon_code='';
+    const arr=["A", "B", "C", "D", "E", "F","l", "m", "n", "o", "p", "q", "G", "H","1", "2", "3", "4", "5", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z",
+    "a", "b", "c", "d","w", "x", "y", "z", "e", "f", "g", "h", "i", "j", "k", "r", "s", "t", "u", "v", 
+    "6", "7", "8", "9", "0"];
+    for(i=0; i<6; i++)
+    {
+        coupon_code+=(arr[Math.floor(Math.random()*arr.length)]);
+    }
+    document.getElementById("coupon").innerHTML="Your coupon code for the day is: "+coupon_code;
+}

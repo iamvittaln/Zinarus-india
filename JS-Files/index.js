@@ -1,7 +1,3 @@
-/*function initial_alert_box()
-{
-    alert("Welcome to my website! Hope you like it!!");
-}*/
 const days=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 function display_d_t()
 {
