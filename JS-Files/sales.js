@@ -92,3 +92,4 @@ function Coupon()
     }
     document.getElementById("coupon").innerHTML="Your coupon code for the day is: "+coupon_code;
 }
+
