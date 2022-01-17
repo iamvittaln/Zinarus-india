@@ -1,7 +1,6 @@
 # Zinarus India Website
 ### A car manufacturing company aiming to revolutionize the EV field by the year 2025 <br>
-#### Website deployed using Netlify
-##### Link to the website: https://zinarus-india.netlify.app/
+#### Link to the website: https://cutt.ly/zinarus-india
 ## Some specific features of the website
 ### Main page
 #### In the top right corner, data pertaining to the date, day and time are displayed which are updated automatically.
