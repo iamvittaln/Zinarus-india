@@ -23,24 +23,24 @@
             <p id="sorry_service_2">Kindly fill in the form with relevant details for quick assistance</p>              
         </div>
         <div class="service_form">
-            <form>
+            <form onsubmit="serviceForm()">
                 <fieldset>
                     <legend>Personal Details</legend>
                     <label for="fname">First Name</label>
-                    <input type="text" id="fname" name="fname" placeholder="Rahul" ><br>
+                    <input type="text" id="fname" name="fname" placeholder="Rahul" required><br>
                     <label for="lname">Last Name</label>
-                    <input type="text" id="lname" name="lname" placeholder="Ganesan" ><br>
+                    <input type="text" id="lname" name="lname" placeholder="Ganesan" required><br>
                     <label for="mno">Mobile Number</label>
-                    <input type="text" pattern="\d{10}" id="mno" name="mno" maxlength="10" placeholder="9890098900" title="Only numbers allowed"><br>
+                    <input type="text" pattern="\d{10}" id="mno" name="mno" maxlength="10" placeholder="9890098900" title="Only numbers allowed and enter exactly 10 digits" required><br>
                     <label for="address1">Address Line 1</label>
-                    <input type="text" id="address1" name="address1" placeholder="Address Line 1" ><br>
+                    <input type="text" id="address1" name="address1" placeholder="Address Line 1" required><br>
                     <label for="address2">Address Line 2</label>
                     <input type="text" id="address2" name="address2" placeholder="Address Line 2"><br>
                     <label for="city">City</label>
-                    <input type="text" id="city" name="city" placeholder="City" ><br>
+                    <input type="text" id="city" name="city" placeholder="City" required><br>
                     <label for="state">State</label>
-                    <select name="state" id="state" >
-                        <option value="none" selected disabled hidden>Choose a state from the given options</option>
+                    <select name="state" id="state" required>
+                        <option value="" selected>Choose a state from the given options</option>
                         <option value="Andhra Pradesh">Andhra Pradesh</option>
                         <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
                         <option value="Arunachal Pradesh">Arunachal Pradesh</option>
@@ -79,30 +79,30 @@
                         <option value="West Bengal">West Bengal</option>
                         </select><br>
                     <label for="pincode">Pincode</label>
-                    <input type="text" pattern="\d{6}" id="pincode" name="pincode" maxlength="6" placeholder="602108" title="Only numbers allowed" ><br>
+                    <input type="text" pattern="\d{6}" id="pincode" name="pincode" maxlength="6" placeholder="602108" title="Only numbers allowed and enter exactly 6 digits" required><br>
                 </fieldset><br><br>
                 <fieldset>
                     <legend>Car Information</legend>
                     <label for=carnames>Please select one of the cars</label>
-                    <input type="radio" name="carnames" id="cruzercar"><label>Cruzer</label>
-                    <input type="radio" name="carnames" id="lintocar"><label>Linto</label>
-                    <input type="radio" name="carnames" id="jiguancar"><label>Jiguan</label><br>
+                    <input type="radio" name="carnames" id="cruzercar" required><label>Cruzer</label>
+                    <input type="radio" name="carnames" id="lintocar" required><label>Linto</label>
+                    <input type="radio" name="carnames" id="jiguancar" required><label>Jiguan</label><br>
                     <label for="year">Year</label>
-                    <select name="year" >
-                        <option value="none" selected disabled hidden>Choose year of the Car</option>
+                    <select name="year" required>
+                        <option value="" selected disabled hidden>Choose year of the Car</option>
                         <option value="2019">2019</option>
                         <option value="2020">2020</option>
                         <option value="2021">2021</option>
                     </select><br>
                     <label for="model">Model</label>
-                    <select name="model" >
-                        <option value="none" selected disabled hidden>Choose a Model</option>
+                    <select name="model" required>
+                        <option value="" selected disabled hidden>Choose a Model</option>
                         <option value="LMI">LMI</option>
                         <option value="VMI">VMI</option>
                         <option value="ZMI">ZMI</option>
                     </select><br>
                 </fieldset>
-                <button onclick="serviceForm()" id="submit">Send Service Request</button>
+                <button id="submit">Send Service Request</button>
             </form>
         </div>
         <div class="footer"> 
